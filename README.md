@@ -1,2 +1,3 @@
-# Artist-Website
-A chinese artwork trading platform
+# Artist Website
+
+A Chinese artwork trading platform built with Next.js.
