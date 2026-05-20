@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1240" role="img" aria-label="Pearl River Loop new media artwork">
+  <rect width="900" height="1240" fill="#171717"/>
+  <rect x="88" y="104" width="724" height="1032" rx="26" fill="#f2efe7"/>
+  <path d="M138 810c108-137 221-169 340-96 98 60 190 55 276-16" fill="none" stroke="#1b8a76" stroke-width="46" stroke-linecap="round"/>
+  <path d="M151 710c94-96 186-118 276-65 102 61 202 31 300-89" fill="none" stroke="#243d67" stroke-width="30" stroke-linecap="round"/>
+  <path d="M185 909c138-54 255-48 351 18 78 54 143 58 194 11" fill="none" stroke="#d92332" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="260" cy="315" r="110" fill="#f5b64a"/>
+  <circle cx="260" cy="315" r="62" fill="#f2efe7"/>
+  <path d="M501 256h176M501 307h132M501 358h204" stroke="#171717" stroke-width="16" stroke-linecap="round"/>
+  <rect x="88" y="104" width="724" height="1032" rx="26" fill="none" stroke="#d6d0c2" stroke-width="5"/>
+</svg>

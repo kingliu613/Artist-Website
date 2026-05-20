@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1240" role="img" aria-label="Porcelain Signal ceramic artwork">
+  <rect width="900" height="1240" fill="#f8f8f2"/>
+  <ellipse cx="450" cy="640" rx="278" ry="402" fill="#f7f5ee" stroke="#d7d2c8" stroke-width="5"/>
+  <path d="M314 214c64 40 210 39 272 0 18 83-6 131-49 155-54 30-126 30-179 0-42-24-65-72-44-155Z" fill="#f7f5ee" stroke="#d7d2c8" stroke-width="5"/>
+  <path d="M254 624c90-136 193-181 310-135 70 28 118 26 161-6" fill="none" stroke="#194b86" stroke-width="40" stroke-linecap="round"/>
+  <path d="M240 736c124-97 244-123 359-78 52 20 98 21 137 3" fill="none" stroke="#194b86" stroke-width="24" stroke-linecap="round" opacity=".84"/>
+  <path d="M327 457c45-39 88-56 128-50 46 7 83 41 115 102" fill="none" stroke="#194b86" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="608" cy="812" r="46" fill="#d92332"/>
+  <path d="M596 785h24v54h-24zM579 803h58" stroke="#f8f8f2" stroke-width="8"/>
+  <rect x="96" y="98" width="708" height="1044" fill="none" stroke="#e2ddd3" stroke-width="3"/>
+</svg>

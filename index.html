@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>艺集｜青年艺术家原作担保交易平台</title>
+    <meta
+      name="description"
+      content="艺集是面向青年艺术家原作的一口价担保交易平台，提供作品凭证、平台托管付款、物流保障和策展式发现体验。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "艺集",
+        "description": "青年艺术家原作担保交易平台",
+        "url": "https://example.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://example.com/?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="艺集首页">
+        <span>艺</span>
+        <strong>艺集</strong>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="#market">市场</a>
+        <a href="#drops">新作</a>
+        <a href="#guide">指南</a>
+        <a href="#trust">担保</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-link" href="./profile.html" aria-label="个人主页">⌂</a>
+        <a class="button small" href="./publish.html">发布作品</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-market">
+        <div class="hero-copy">
+          <p class="eyebrow">青年艺术家原作 · 一口价担保交易</p>
+          <h1>先看懂作品，再放心下单。</h1>
+          <p>
+            艺集把艺术家声明、作品凭证、价格、物流和放款节点放在同一个交易路径里，让第一次买原作也像成熟电商一样清楚。
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#market">浏览精选原作</a>
+            <a class="button ghost" href="#trust">查看担保流程</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="平台交易状态">
+          <div>
+            <span>平台托管</span>
+            <strong>确认收货后放款</strong>
+          </div>
+          <div>
+            <span>作品凭证</span>
+            <strong>证书 + 影像存证</strong>
+          </div>
+          <div>
+            <span>佣金模式</span>
+            <strong>成交后抽佣 8%-15%</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="filter-bar" aria-label="市场筛选">
+        <label>
+          搜索
+          <input id="searchInput" type="search" placeholder="水墨、陶瓷、艺术家、城市" />
+        </label>
+        <label>
+          类别
+          <select id="categoryFilter">
+            <option value="all">全部类别</option>
+          </select>
+        </label>
+        <label>
+          价格
+          <select id="priceFilter">
+            <option value="all">全部价格</option>
+            <option value="under-50000">5 万以下</option>
+            <option value="50000-100000">5-10 万</option>
+            <option value="over-100000">10 万以上</option>
+          </select>
+        </label>
+        <label>
+          排序
+          <select id="sortFilter">
+            <option value="featured">策展推荐</option>
+            <option value="price-asc">价格从低到高</option>
+            <option value="price-desc">价格从高到低</option>
+            <option value="trust">信任分优先</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="section-head" id="market">
+        <div>
+          <p class="eyebrow">Curated Market</p>
+          <h2>精选青年原作</h2>
+        </div>
+        <p>每件作品都显示价格、凭证、状态和平台担保信息。</p>
+      </section>
+      <section class="art-grid" id="marketGrid" aria-live="polite"></section>
+
+      <section class="trust-flow" id="trust">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Escrow Flow</p>
+            <h2>钱和作品每一步都说清楚</h2>
+          </div>
+        </div>
+        <div class="flow-grid">
+          <article>
+            <span>1</span>
+            <h3>买家付款进平台托管</h3>
+            <p>下单后资金暂由平台托管，卖家不会立即收款。</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>卖家按凭证发货</h3>
+            <p>发货前上传包装、证书和物流影像，便于争议复核。</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>买家确认收货</h3>
+            <p>作品与页面信息一致后确认收货，平台进入放款流程。</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3>平台抽佣后放款</h3>
+            <p>平台收取服务佣金，余额放款给艺术家或卖家。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="drops-section" id="drops">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Weekly Drops</p>
+            <h2>本周新作专题</h2>
+          </div>
+          <a class="text-link" href="./profile.html?user=artist">查看艺术家</a>
+        </div>
+        <div class="drop-list" id="dropList"></div>
+      </section>
+
+      <section class="guide-section" id="guide">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Traffic Content</p>
+            <h2>让用户愿意反复回来看的内容</h2>
+          </div>
+        </div>
+        <div class="editorial-grid" id="editorialGrid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>艺集</strong>
+      <span>青年原作 · 可信凭证 · 担保交易</span>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

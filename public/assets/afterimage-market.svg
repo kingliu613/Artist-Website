@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-label="Afterimage Market digital artwork">
+  <rect width="900" height="1080" fill="#111827"/>
+  <rect x="84" y="96" width="732" height="888" rx="22" fill="#17233d"/>
+  <g opacity=".95">
+    <rect x="174" y="188" width="204" height="280" rx="8" fill="#f4f0e5"/>
+    <rect x="408" y="188" width="318" height="128" rx="8" fill="#d92332"/>
+    <rect x="408" y="348" width="148" height="286" rx="8" fill="#1b8a76"/>
+    <rect x="586" y="348" width="140" height="286" rx="8" fill="#f5b64a"/>
+    <rect x="174" y="500" width="204" height="294" rx="8" fill="#243d67"/>
+    <rect x="408" y="666" width="318" height="128" rx="8" fill="#efe8dc"/>
+  </g>
+  <path d="M118 910c88-36 173-54 256-54 102 0 190 41 286 37 52-2 93-17 126-44" fill="none" stroke="#f4f0e5" stroke-width="14" stroke-linecap="round" opacity=".62"/>
+  <path d="M150 862c88 26 166 27 233 3 117-42 174-141 310-113" fill="none" stroke="#d92332" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="690" cy="187" r="18" fill="#f4f0e5"/>
+  <circle cx="640" cy="187" r="18" fill="#f4f0e5" opacity=".56"/>
+</svg>

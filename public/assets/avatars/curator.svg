@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="策展顾问头像">
+  <rect width="120" height="120" rx="60" fill="#243d67"/>
+  <circle cx="60" cy="42" r="20" fill="#f4f0e5"/>
+  <path d="M27 102c8-24 22-36 33-36s25 12 33 36" fill="#1b8a76"/>
+  <path d="M37 39c10-23 36-28 52-8-9 15-28 19-52 8Z" fill="#111827"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="藏家头像">
+  <rect width="120" height="120" rx="60" fill="#171717"/>
+  <circle cx="60" cy="44" r="21" fill="#f4f0e5"/>
+  <path d="M25 104c7-25 24-38 35-38s28 13 35 38" fill="#d92332"/>
+  <path d="M35 28c16-21 45-20 58 3-13 10-35 12-58-3Z" fill="#a9782b"/>
+</svg>

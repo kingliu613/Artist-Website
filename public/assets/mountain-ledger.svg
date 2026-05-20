@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-label="Mountain Ledger ink artwork">
+  <rect width="900" height="1080" fill="#eef3ee"/>
+  <path d="M0 744 164 540l136 96 184-272 148 251 92-98 176 226v337H0Z" fill="#2e3936"/>
+  <path d="M0 812 210 628l164 129 204-202 117 142 205-119v502H0Z" fill="#171717"/>
+  <path d="M0 678c159 45 278 45 357 0 121-69 214-80 344-8 66 37 133 45 199 24" fill="none" stroke="#788d85" stroke-width="20" stroke-linecap="round"/>
+  <path d="M134 241h254M134 292h176M134 343h118" stroke="#9baaa2" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="704" cy="248" r="68" fill="#d92332" opacity=".9"/>
+  <rect x="76" y="74" width="748" height="932" fill="none" stroke="#cdd8d0" stroke-width="4"/>
+</svg>

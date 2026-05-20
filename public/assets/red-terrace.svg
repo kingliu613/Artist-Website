@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-label="Red Terrace limited edition artwork">
+  <rect width="900" height="1080" fill="#ece8df"/>
+  <rect x="118" y="130" width="664" height="820" fill="#fbfaf7"/>
+  <path d="M151 796h598v95H151z" fill="#171717"/>
+  <path d="M214 699h472v97H214zM284 603h332v96H284zM354 508h196v95H354z" fill="#d92332"/>
+  <path d="M214 699h472M284 603h332M354 508h196" stroke="#8e151d" stroke-width="12"/>
+  <path d="M198 297c74-62 138-79 193-51 49 26 86 87 153 75 46-8 88-44 126-109" fill="none" stroke="#243d67" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="676" cy="295" r="38" fill="#f5b64a"/>
+  <path d="M151 891h598" stroke="#d8d0c2" stroke-width="36"/>
+  <rect x="118" y="130" width="664" height="820" fill="none" stroke="#d8d0c2" stroke-width="4"/>
+</svg>

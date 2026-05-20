@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>发布青年原作｜卖家上架向导｜艺集</title>
+    <meta
+      name="description"
+      content="艺术家和卖家可通过艺集发布原作，填写作品信息、定价、凭证、物流和审核材料。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html"><span>艺</span><strong>艺集</strong></a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="./index.html#market">市场</a>
+        <a href="./profile.html?mode=seller">卖家中心</a>
+        <a href="./index.html#trust">担保流程</a>
+      </nav>
+      <a class="button small" href="./profile.html">个人主页</a>
+    </header>
+
+    <main>
+      <section class="publish-hero">
+        <div>
+          <p class="eyebrow">Seller Wizard</p>
+          <h1>发布一件可被信任的作品。</h1>
+          <p>
+            10 分钟内完成基础上架：作品资料、价格、凭证、物流和审核信息一次填清楚。
+          </p>
+        </div>
+        <div class="status-stack">
+          <span>草稿</span>
+          <span>平台审核</span>
+          <span>上架销售</span>
+          <span>成交放款</span>
+        </div>
+      </section>
+
+      <section class="wizard-layout">
+        <form class="publish-form" id="publishForm">
+          <fieldset>
+            <legend>1. 作品基础信息</legend>
+            <div class="form-grid">
+              <label>作品名称<input name="title" value="春山听雨" required /></label>
+              <label>艺术家<input name="artist" value="林悦工作室" required /></label>
+              <label>类别
+                <select name="category">
+                  <option>水墨原作</option>
+                  <option>陶瓷器物</option>
+                  <option>限量版画</option>
+                  <option>综合材料</option>
+                </select>
+              </label>
+              <label>创作年份<input name="year" value="2026" required /></label>
+              <label>尺寸<input name="size" value="68 x 88 cm" required /></label>
+              <label>材质<input name="medium" value="设色纸本" required /></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. 定价与佣金</legend>
+            <div class="form-grid">
+              <label>一口价<input name="price" type="number" value="86000" min="1" required /></label>
+              <label>平台佣金
+                <select name="commission">
+                  <option>12% 标准佣金</option>
+                  <option>10% 种子艺术家扶持</option>
+                  <option>8% 首发专题佣金</option>
+                </select>
+              </label>
+            </div>
+            <p class="form-note" id="priceHint">建议价格会根据类别、尺寸和近期成交区间生成。</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. 凭证与出处</legend>
+            <div class="form-grid">
+              <label>证书类型
+                <select name="certificate">
+                  <option>艺术家亲签证书 + 平台电子凭证</option>
+                  <option>限量编号 + 工作室水印</option>
+                  <option>窑口记录 + 作者签名卡</option>
+                </select>
+              </label>
+              <label>作品来源<input name="provenance" value="艺术家工作室直供" /></label>
+            </div>
+            <label>艺术家声明<textarea name="statement">这件作品来自 2026 年春季系列，纸张、颜料和装裱批次均可追踪。</textarea></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. 物流与售后</legend>
+            <div class="form-grid">
+              <label>发货地<input name="location" value="杭州工作室" /></label>
+              <label>物流方案
+                <select name="shipping">
+                  <option>顺丰艺术品专线 + 包装险</option>
+                  <option>木箱运输 + 到付保价</option>
+                  <option>同城专人配送</option>
+                </select>
+              </label>
+            </div>
+            <label class="check-row"><input type="checkbox" checked /> 同意平台担保付款、确认收货后放款与佣金规则</label>
+          </fieldset>
+
+          <div class="form-actions">
+            <button class="button" type="submit">提交平台审核</button>
+            <button class="button ghost" type="button" id="saveDraft">保存草稿</button>
+          </div>
+        </form>
+
+        <aside class="seller-panel" aria-label="卖家上架提示">
+          <h2>上架前检查</h2>
+          <ul id="checkList">
+            <li>至少 4 张清晰图片：整体、细节、背面、证书。</li>
+            <li>价格需要含平台佣金，不要让买家下单后再补费用。</li>
+            <li>写清楚包装和破损处理，减少售后争议。</li>
+            <li>证书、出处和创作声明会进入作品凭证。</li>
+          </ul>
+          <div class="mini-ledger">
+            <span>预计审核</span>
+            <strong>1-2 个工作日</strong>
+            <span>成交放款</span>
+            <strong>确认收货后 72 小时内</strong>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>艺集卖家中心</strong>
+      <span>清楚上架，可信成交</span>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./publish.js"></script>
+  </body>
+</html>

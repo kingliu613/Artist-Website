@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="用户头像">
+  <defs>
+    <linearGradient id="paper" x1="16" x2="104" y1="14" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0"/>
+      <stop offset=".58" stop-color="#eadfc9"/>
+      <stop offset="1" stop-color="#d6c3a3"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="34" x2="92" y1="63" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163d46"/>
+      <stop offset="1" stop-color="#0e1a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="60" fill="url(#paper)"/>
+  <path d="M20 86c15-3 25-12 31-29 5-14 16-23 31-24 10-1 18 1 26 5v82H20V86Z" fill="#1f6f68" opacity=".16"/>
+  <circle cx="60" cy="50" r="25" fill="#c98f4f"/>
+  <path d="M35 51c6-19 20-30 39-27 9 2 16 7 20 15-17 3-32 0-45-8-7 4-11 10-14 20Z" fill="#17120f"/>
+  <path d="M35 108c7-28 24-44 47-44 9 0 17 2 25 7 4 12 7 24 8 37H35Z" fill="url(#coat)"/>
+  <path d="M50 70c4 6 9 9 15 9s11-3 15-9c-2 15-8 25-15 25S52 85 50 70Z" fill="#f5ead6"/>
+  <path d="M28 90c16-4 30-10 42-18 9-6 18-9 27-10" fill="none" stroke="#9d2f22" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+  <circle cx="88" cy="30" r="10" fill="#9d2f22" opacity=".88"/>
+  <path d="M24 24h72v72H24z" fill="none" stroke="#17120f" stroke-opacity=".08"/>
+</svg>
