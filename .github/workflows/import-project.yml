@@ -1,0 +1,31 @@
+name: Import Artist Website
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/import-project.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download project archive
+        run: |
+          curl -fL "https://eager-squids-win.loca.lt/artist-website-upload.zip" -o /tmp/artist-website-upload.zip
+      - name: Import project files
+        run: |
+          unzip -o /tmp/artist-website-upload.zip -d .
+          rm -f /tmp/artist-website-upload.zip
+      - name: Commit imported project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Upload Artist Website project" || exit 0
+          git push
